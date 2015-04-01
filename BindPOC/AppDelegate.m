@@ -12,8 +12,6 @@
 
 @end
 
-DataHolder * globalHolder;
-
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
@@ -43,14 +41,5 @@ DataHolder * globalHolder;
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
 }
 
-+(DataHolder *)GetGlobalHolder
-{
-    return globalHolder;
-}
-
-+(void)SetGlobalHolder:(DataHolder *)holder
-{
-    globalHolder = holder;
-}
 
 @end
