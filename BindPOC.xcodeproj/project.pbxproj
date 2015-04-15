@@ -336,6 +336,7 @@
 				TargetAttributes = {
 					F40371831AC3049E00632610 = {
 						CreatedOnToolsVersion = 6.2;
+						DevelopmentTeam = 47TK4WR8YE;
 					};
 					F403719C1AC3049E00632610 = {
 						CreatedOnToolsVersion = 6.2;
@@ -503,7 +504,8 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: HUSSEIN MAHMOUD (XTDZG88ZA2)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: HUSSEIN MAHMOUD (XTDZG88ZA2)";
 				COPY_PHASE_STRIP = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -523,6 +525,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "05d0b928-214a-42eb-a614-9a0dc4c16979";
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -544,7 +547,8 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: HUSSEIN MAHMOUD (XTDZG88ZA2)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: HUSSEIN MAHMOUD (XTDZG88ZA2)";
 				COPY_PHASE_STRIP = NO;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -557,6 +561,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE = "05d0b928-214a-42eb-a614-9a0dc4c16979";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -567,9 +572,11 @@
 			baseConfigurationReference = 4AE7C887803F188BB060E65A /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: HUSSEIN MAHMOUD (XTDZG88ZA2)";
 				INFOPLIST_FILE = BindPOC/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "05d0b928-214a-42eb-a614-9a0dc4c16979";
 			};
 			name = Debug;
 		};
@@ -578,9 +585,11 @@
 			baseConfigurationReference = CD2A87106D904CD3DFDB2A96 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: HUSSEIN MAHMOUD (XTDZG88ZA2)";
 				INFOPLIST_FILE = BindPOC/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "05d0b928-214a-42eb-a614-9a0dc4c16979";
 			};
 			name = Release;
 		};
